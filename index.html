@@ -3,13 +3,19 @@
   	<head>
   	    <meta charset="utf-8">
 		<title>CV</title>
-		<link rel="stylesheet" type="text/css" href="styles.css">
-
+		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+        	<script src="main.js"></script>
+		<link res = "stylesheet" href ="styles.css">
 	</head>
 	
 	<body>	
-	    <img src="http://www.nokiaplanet.com/uploads/posts/2015-11/1448881894_cute-kitty-360x640.jpg" alt="My photo" class="pic" >												
-	    <h1>NIKITA VOLKOV</h1>
+        <table>
+	<tr>
+   	<td width = 40%> <img src="http://www.nokiaplanet.com/uploads/posts/2015-11/1448881894_cute-kitty-360x640.jpg" alt="My photo" class="pic"> 	
+ <input type="button" id="photo-button" value="Button">
+	</td>
+	<td width = 40%>									
+	    <h1>Volkov Nikita</h1>
 		<hr>
 	    	<p>
             Cell:
@@ -20,28 +26,44 @@
 			<a class="email" href="mailto:N.volkovsky@gmail.com">N.volkovsky@gmail.com</a>
 				</p>
 				<div id="objective">
-			<p>
-                I am an outgoing and energetic (ask anybody) young                  professional, seeking a career that fits my                         professional skills, personality, and murderous                     tendencies. 
-            </p>
-            </div>
-	
+		
+            </div font-family: Georgia, Serif>
+		<form name="test" method="post" action="input1.php">
+		  <ps><b>Здравствуйте! Пожалуйста, представьтесь:</b><br>
+		   <input type="text" size="40" boarder-width: 1px boarder-radius: 3px>
+		  </ps><Br>
+		  <ps><b>Рад с Вами познакомиться! Вы любите котов?</b><Br>
+		   <input type="radio" name="browser" value="love"> Люблю.<Br>
+		   <input type="radio" name="browser" value="yes"> Да.<Br>
+		   <input type="radio" name="browser" value="sure"> Конечно!<Br>
+		  </ps>
+		  <ps><b>Теперь серьёзно. Ниже Вы найдёте всю информацию обо мне.<br> Если желаете, оставьте комментарий.</b><Br>
+		   <textarea name="comment" cols="40" rows="3"></textarea></ps>
+		  <p><input type="submit" value="Отправить">
+		   <input type="reset" value="Очистить"></p>
+		 </form>
+		</td>
+</te>
+</table>
+	    <br>
 	    <h2>EDUCATION</h2>
 	    <div class="information">
         <p>2011-2014 - math school</p>
         <p>2014-until now - MIPT</p>
         </div>		
-        
+        <br>
         <h2>WORK EXPERIENCE</h2>
         <div class="information">
         <p>1996-until now - mum's helper</p>		 		 		
         <p>2013-until now - math tutor</p>
         </div>																	
-					
+	<br>			
 	    <h2>INTERESTS</h2>
 	    <div class="information">
         <p>I enjoy dancing and I'am keen on mathematics and other sciences.</p>
         </div>															
-        </body>
+	
+	</body>
         
 </html>
 															

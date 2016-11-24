@@ -1,17 +1,30 @@
+	.content{
+		height: 5000px;
+		background-color: rgba(57, 157, 255, 0.7);
+
+	} 
         .pic { float: left; 
                margin: 1%  10% 0 7%; 
                padding = 3%; 
                border: 5px rgb(205,133,63); 
                border-radius: 9px;
+		
 	       }
         
 	    h1 {
             color: #696969;;
             font-size: 35px;
-		    float: none;
+		    float: top;
 	        font-family: Arial;
         }
- 	
+	ps {
+		color: #696969;;
+            font-size: 15px;
+
+	        font-family: Arial;
+	}
+	 	
+
  	    h2 {
             color: #808080;
             font-size: 25px;
@@ -52,4 +65,3 @@
 	        width: 50%;
 		    font-family: Georgia, Serif
 	    }
-	    
